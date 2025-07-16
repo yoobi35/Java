@@ -79,6 +79,7 @@ public class Main {
 			// ---- 한 줄씩 저장할 String
 			String line = null;
 			
+			
 			// ---- line을 모을 StringBuilder
 			StringBuilder sb = new StringBuilder();
 			

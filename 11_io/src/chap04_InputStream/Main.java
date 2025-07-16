@@ -80,6 +80,7 @@ public class Main {
 		
 		try (BufferedInputStream bin = new BufferedInputStream(new FileInputStream(file))){
 			
+			
 		
 			// ---- byte[] 배열을 이용해 20바이트 단위로 파일 읽기
 			byte[] b = new byte[20];
@@ -136,6 +137,8 @@ public class Main {
 		din.close();
 	}
 
+	
+	
 
 	public static void main(String[] args) {
 		//bufferedInputStream();
